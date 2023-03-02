@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+  }
+  h2 {
+    color: black;
+    text-align: center
+    ;
+  }
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  p {
+    color:black;
+    text-align: center;}
+    div p {
+        background-color: yellow;
+      }
+      div > p {
+        background-color: yellow;
+      }
+      div + p {
+        background-color: yellow;
+      }
+      div ~ p {
+        background-color: yellow;
+      }
+      div {
+                   background-color: whitesmoke;
+                   align-content: center;
+                   width: 300px;
+                   border: 15px solid navy;
+                   padding: 50px;
+                   margin: auto;
+      }
